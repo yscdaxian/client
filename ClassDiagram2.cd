@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AgentHelper.frmWb">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <NestedTypes>
+      <Delegate Name="AgentHelper.frmWb.DRefreshForm" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmWb.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="AgentHelper.frmWb.DIncomingCall" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmWb.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="AgentHelper.frmWb.DCallJs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmWb.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>JjZABP+xAqSAgwgIMcOCAFhKgAhtVA4BQgFEBQwYKCE=</HashCode>
+      <FileName>frmWb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AgentHelper.Proxy.ProxyClient">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACiAHAAAAAQIgAAAggAAAECkAQGCoBEEogAAiAACE=</HashCode>
+      <FileName>Proxy\ProxyClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
