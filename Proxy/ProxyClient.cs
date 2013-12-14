@@ -24,7 +24,7 @@ namespace AgentHelper.Proxy
         private int port;
         private String eventData;
        
-        private char[] HexDigits;
+        //private char[] HexDigits;
 
         public event OnProxyEvent OnProxyEventHandle;
         public ProxyClient()

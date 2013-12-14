@@ -38,6 +38,7 @@ namespace AgentHelper
         private Timer tmr = new Timer();
         private TaskbarNotifier taskbar;
         private ProxyCommand proxyCommand;
+    
         
         private delegate void DRefreshForm();
         private delegate void DIncomingCall(int sessionId, string number, string info);
@@ -75,6 +76,7 @@ namespace AgentHelper
                 Settings.Default.cfgUpdgradeSettings = false;
             }
             this._resources = new AgentHelper.SipPhone.SipekResources(this);
+           
         }
 
       
@@ -104,6 +106,7 @@ namespace AgentHelper
                         OnMakeBusyUpdateUI(Convert.ToBoolean(paused));
                 }
 
+               
                 if (proxyEventData.eventId == 1) {
                     string eventData = "{";
                     eventData += "eventId:1";
@@ -635,7 +638,6 @@ namespace AgentHelper
         }
 
       
-
         private void ts_hungup_Click(object sender, EventArgs e)
         {
             if (this.ts_hungup.Enabled)
@@ -932,6 +934,7 @@ namespace AgentHelper
 
         private void toolStripButtonTransfer_Click(object sender, EventArgs e)
         {
+            /*
             String eventData=EventToCallWebJs.CreateOnClickTransferButonBeginEvent();
             try{
                 if (frmIeWindow.m_CurWB.InvokeRequired){
@@ -946,6 +949,11 @@ namespace AgentHelper
             {
                 System.Diagnostics.Trace.WriteLine(ex.ToString());
             }
+             */
+            AgentForm agentForm = new AgentForm();
+            this.proxyClient.OnProxyEventHandle += agentForm.OnProxyEventHandle;
+            agentForm.ShowDialog();
+            
         }
 
         private void tsmi_as_callcenterWeb_Click(object sender, EventArgs e)
@@ -961,6 +969,7 @@ namespace AgentHelper
            else
                this.mMixers.Recording.UserLines.GetMixerFirstLineByComponentType(MIXERLINE_COMPONENTTYPE.SRC_MICROPHONE).Mute = true;
         }
+       
        
     }
 }

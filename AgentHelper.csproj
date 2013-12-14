@@ -74,25 +74,29 @@
     <ApplicationIcon>User.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="csExWB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="csExWB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>bin\Release\csExWB.dll</HintPath>
+    </Reference>
     <Reference Include="fastJSON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\fastJSON.dll</HintPath>
+      <HintPath>bin\Release\fastJSON.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.CSEXWBDLMANLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="Interop.CSEXWBDLMANLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Release\Interop.CSEXWBDLMANLib.DLL</HintPath>
     </Reference>
     <Reference Include="MdiTabStrip, Version=1.0.4141.17619, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\MdiTabStrip.DLL</HintPath>
     </Reference>
     <Reference Include="mshtml">
-      <HintPath>.\mshtml.dll</HintPath>
+      <HintPath>bin\Release\mshtml.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="SipekSdk, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\SipekSdk.dll</HintPath>
+      <HintPath>bin\Release\SipekSdk.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -102,10 +106,16 @@
     <Reference Include="System.Xml" />
     <Reference Include="WaveLibMixer, Version=1.0.2927.30170, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\WaveLibMixer.dll</HintPath>
+      <HintPath>bin\Release\WaveLibMixer.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentForm.Designer.cs">
+      <DependentUpon>AgentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmWb.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,10 +128,14 @@
     <Compile Include="frmIeWindows.Designer.cs">
       <DependentUpon>frmIeWindows.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Log\Loger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\EventToCallWebJs.cs" />
+    <Compile Include="Proxy\ProxyAgentStatusData.cs" />
     <Compile Include="Proxy\ProxyClient.cs" />
     <Compile Include="Proxy\ProxyCommand.cs" />
     <Compile Include="Proxy\ProxyEventData.cs" />
@@ -153,6 +167,9 @@
     <Compile Include="SipPhone\TaskbarNotifier.cs">
       <SubType>Form</SubType>
     </Compile>
+    <EmbeddedResource Include="AgentForm.resx">
+      <DependentUpon>AgentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmWb.resx">
       <DependentUpon>frmWb.cs</DependentUpon>
     </EmbeddedResource>

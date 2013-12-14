@@ -6,7 +6,7 @@ namespace AgentHelper.SipPhone
 
     public class SipekAccount : IAccount
     {
-        private int _accountIdentification = -1;
+        //private int _accountIdentification = -1;
         private int _index = -1;
 
         public SipekAccount(int index)
