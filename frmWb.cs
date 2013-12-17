@@ -30,7 +30,7 @@ namespace AgentHelper
         [DllImport("csExWBDLMan.dll")]
         public static extern int DllUnregisterServer();
 
-        private ProxyClient proxyClient;
+        public ProxyClient proxyClient;
         private SipekResources _resources=null;
         private int _lastMicVol=0;
         private bool mAvoidEvents;
@@ -170,11 +170,11 @@ namespace AgentHelper
         }
         private void frmWb_Load(object sender, EventArgs e)
         {
-            fastJSON.JSON.Instance.SerializeNullValues = true;
-            fastJSON.JSON.Instance.ShowReadOnlyProperties = true;
-            fastJSON.JSON.Instance.UseUTCDateTime = true;
-            fastJSON.JSON.Instance.IndentOutput = false;
-            fastJSON.JSON.Instance.UsingGlobalTypes = false;
+           // fastJSON.JSON.Instance.SerializeNullValues = true;
+           // fastJSON.JSON.Instance.ShowReadOnlyProperties = true;
+            //fastJSON.JSON.Instance.UseUTCDateTime = true;
+            //fastJSON.JSON.Instance.IndentOutput = false;
+            //fastJSON.JSON.Instance.UsingGlobalTypes = false;
           
             frmIeWindow.mdiform = this;
             this.proxyCommand = new ProxyCommand();
@@ -951,7 +951,9 @@ namespace AgentHelper
             }
              */
             AgentForm agentForm = new AgentForm();
+            agentForm.mainForm = this;
             this.proxyClient.OnProxyEventHandle += agentForm.OnProxyEventHandle;
+            agentForm.StartPosition = FormStartPosition.CenterParent;
             agentForm.ShowDialog();
             
         }

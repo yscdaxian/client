@@ -5,6 +5,7 @@ F:\workspace\client\client\bin\Release\AgentHelper.exe
 F:\workspace\client\client\bin\Release\AgentHelper.pdb
 F:\workspace\client\client\bin\Release\MdiTabStrip.DLL
 F:\workspace\client\client\obj\x86\Release\ResolveAssemblyReference.cache
+F:\workspace\client\client\obj\x86\Release\AgentHelper.AgentForm.resources
 F:\workspace\client\client\obj\x86\Release\AgentHelper.frmWb.resources
 F:\workspace\client\client\obj\x86\Release\AgentHelper.frmIeWindow.resources
 F:\workspace\client\client\obj\x86\Release\AgentHelper.Properties.Resources.resources
@@ -12,8 +13,8 @@ F:\workspace\client\client\obj\x86\Release\AgentHelper.SipPhone.ErrorDialog.reso
 F:\workspace\client\client\obj\x86\Release\AgentHelper.SipPhone.KeyboardForm.resources
 F:\workspace\client\client\obj\x86\Release\AgentHelper.SipPhone.settingForm.resources
 F:\workspace\client\client\obj\x86\Release\AgentHelper.SipPhone.TaskbarNotifier.resources
-F:\workspace\client\client\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
-F:\workspace\client\client\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+F:\workspace\client\client\obj\x86\Release\GenerateResource.read.1.tlog
+F:\workspace\client\client\obj\x86\Release\GenerateResource.write.1.tlog
 F:\workspace\client\client\obj\x86\Release\AgentHelper.TrustInfo.xml
 F:\workspace\client\client\obj\x86\Release\AgentHelper.exe.manifest
 F:\workspace\client\client\obj\x86\Release\AgentHelper.application

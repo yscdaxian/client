@@ -16,7 +16,7 @@ namespace AgentHelper.Proxy
         public String           eventName { get; set; }
         public int              eventId   { get; set; }
         public bool             status    { get; set; }
-        public List<ProxyAgentStatusData> eventEx { get; set; }
-        public Dictionary<string, string> eventBody { get; set; }
+        public List<Object> eventEx { get; set; }
+        public Dictionary<string, string> eventBody { get; set;}
     }
 }

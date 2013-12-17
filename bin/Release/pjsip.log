@@ -1,166 +1,73 @@
- 11:33:37.933 sip_endpoint.c  Module "mod-pjsua-log" registered
- 11:33:37.933 sip_endpoint.c  Module "mod-tsx-layer" registered
- 11:33:37.933 sip_endpoint.c  Module "mod-stateful-util" registered
- 11:33:37.934 sip_endpoint.c  Module "mod-ua" registered
- 11:33:37.934 sip_endpoint.c  Module "mod-100rel" registered
- 11:33:37.934 sip_endpoint.c  Module "mod-pjsua" registered
- 11:33:37.934 sip_endpoint.c  Module "mod-invite" registered
- 11:33:37.934      pasound.c  PA message: before paHostApiInitializers[0].
+ 14:22:03.472 sip_endpoint.c  Module "mod-pjsua-log" registered
+ 14:22:03.472 sip_endpoint.c  Module "mod-tsx-layer" registered
+ 14:22:03.472 sip_endpoint.c  Module "mod-stateful-util" registered
+ 14:22:03.472 sip_endpoint.c  Module "mod-ua" registered
+ 14:22:03.472 sip_endpoint.c  Module "mod-100rel" registered
+ 14:22:03.473 sip_endpoint.c  Module "mod-pjsua" registered
+ 14:22:03.473 sip_endpoint.c  Module "mod-invite" registered
+ 14:22:03.473      pasound.c  PA message: before paHostApiInitializers[0].
 
- 11:33:37.942      pasound.c  PA message: after paHostApiInitializers[0].
+ 14:22:03.479      pasound.c  PA message: after paHostApiInitializers[0].
 
- 11:33:37.943      pasound.c  PA message: before paHostApiInitializers[1].
+ 14:22:03.479      pasound.c  PA message: before paHostApiInitializers[1].
 
- 11:33:38.127      pasound.c  PA message: after paHostApiInitializers[1].
+ 14:22:03.578      pasound.c  PA message: after paHostApiInitializers[1].
 
- 11:33:38.127      pasound.c  PA message: before paHostApiInitializers[2].
+ 14:22:03.578      pasound.c  PA message: before paHostApiInitializers[2].
 
- 11:33:38.127      pasound.c  PA message: after paHostApiInitializers[2].
+ 14:22:03.578      pasound.c  PA message: after paHostApiInitializers[2].
 
- 11:33:38.127      pasound.c  PortAudio sound library initialized, status=0
- 11:33:38.127      pasound.c  PortAudio host api count=3
- 11:33:38.127      pasound.c  Sound device count=8
- 11:33:38.128          pjlib  WinNT IOCP I/O Queue created (018FF89C)
- 11:33:38.128   conference.c  Creating conference bridge with 254 ports
- 11:33:38.128   conference.c  Sound device successfully created for port 0
- 11:33:38.128 sip_endpoint.c  Module "mod-evsub" registered
- 11:33:38.128 sip_endpoint.c  Module "mod-presence" registered
- 11:33:38.128        evsub.c  Event pkg "presence" registered by mod-presence
- 11:33:38.128 sip_endpoint.c  Module "mod-refer" registered
- 11:33:38.128        evsub.c  Event pkg "refer" registered by mod-refer
- 11:33:38.128 sip_endpoint.c  Module "mod-pjsua-pres" registered
- 11:33:38.128 sip_endpoint.c  Module "mod-pjsua-im" registered
- 11:33:38.128 sip_endpoint.c  Module "mod-pjsua-options" registered
- 11:33:38.128   pjsua_core.c  1 SIP worker threads created
- 11:33:38.128   pjsua_core.c  pjsua version 1.0 for win32 initialized
- 11:33:38.132   pjsua_core.c  SIP UDP socket reachable at 172.17.1.21:5060
- 11:33:38.132    udp06E417A0  SIP UDP transport started, published address is 172.17.1.21:5060
- 11:33:38.133    pjsua_acc.c  Account <sip:172.17.1.21:5060> added with id 0
- 11:33:38.135    tcplis:5060  SIP TCP listener ready for incoming connections at 172.17.1.21:5060
- 11:33:38.135    pjsua_acc.c  Account <sip:172.17.1.21:5060;transport=TCP> added with id 1
- 11:33:38.139  pjsua_media.c  RTP socket reachable at 172.17.1.21:4002
- 11:33:38.139  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4003
- 11:33:38.144  pjsua_media.c  RTP socket reachable at 172.17.1.21:4004
- 11:33:38.144  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4005
- 11:33:38.151  pjsua_media.c  RTP socket reachable at 172.17.1.21:4006
- 11:33:38.151  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4007
- 11:33:38.153  pjsua_media.c  RTP socket reachable at 172.17.1.21:4008
- 11:33:38.153  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4009
- 11:33:38.153 sip_endpoint.c  Module "My-Module" registered
- 11:33:38.785   pjsipDll.cpp  Setting codec (speex/16000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (speex/32000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (GSM/8000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (PCMA/8000/1) prio: 128
- 11:33:38.785   pjsipDll.cpp  Setting codec (G722/16000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (GSM/8000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (speex/32000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (speex/16000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (L16/44100/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (L16/44100/2) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (L16/8000/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (L16/8000/2) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (L16/11025/1) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (L16/11025/2) prio: 0
- 11:33:38.785   pjsipDll.cpp  Setting codec (L16/16000/1) prio: 0
- 11:33:38.786   pjsipDll.cpp  Setting codec (L16/16000/2) prio: 0
- 11:33:38.786   pjsipDll.cpp  Setting codec (L16/22050/1) prio: 0
- 11:33:38.786   pjsipDll.cpp  Setting codec (L16/22050/2) prio: 0
- 11:33:38.786   pjsipDll.cpp  Setting codec (L16/32000/1) prio: 0
- 11:33:38.786   pjsipDll.cpp  Setting codec (L16/32000/2) prio: 0
- 11:33:38.786   pjsipDll.cpp  Setting codec (L16/48000/1) prio: 0
- 11:33:38.786   pjsipDll.cpp  Setting codec (L16/48000/2) prio: 0
- 11:33:45.653    pjsua_acc.c  Account id 0 deleted
- 11:33:45.653    pjsua_acc.c  Account id 1 deleted
- 11:33:45.660    pjsua_acc.c  Account sip:8001@172.17.1.16 added with id 0
- 11:33:45.660       endpoint  Request msg REGISTER/cseq=4461 (tdta06E76AE8) created.
- 11:33:45.660    tsx06E7DE6C  Transaction created for Request msg REGISTER/cseq=4462 (tdta06E76AE8)
- 11:33:45.660    tsx06E7DE6C  Sending Request msg REGISTER/cseq=4462 (tdta06E76AE8) in state Null
- 11:33:45.660  sip_resolve.c  Target '172.17.1.16:0' type=Unspecified resolved to '172.17.1.16:5060' type=UDP (UDP transport)
- 11:33:45.660   pjsua_core.c  TX 444 bytes Request msg REGISTER/cseq=4462 (tdta06E76AE8) to UDP 172.17.1.16:5060:
-REGISTER sip:172.17.1.16 SIP/2.0
-Via: SIP/2.0/UDP 172.17.1.21:5060;rport;branch=z9hG4bKPja83af7c083354f7ca2d1ff281f50780a
-Route: <sip:172.17.1.16;lr>
-Max-Forwards: 70
-From: <sip:8001@172.17.1.16>;tag=55c5e04de2a74e23a799691ed971b5b0
-To: <sip:8001@172.17.1.16>
-Call-ID: fe0aef6100694ebea6eb8c6a37e6eee4
-CSeq: 4462 REGISTER
-User-Agent: Sipek on PJSUA v1.0/win32
-Contact: <sip:8001@172.17.1.21:5060>
-Expires: 3600
-Content-Length:  0
-
-
---end msg--
- 11:33:45.661    tsx06E7DE6C  State changed from Null to Calling, event=TX_MSG
- 11:33:45.661    pjsua_acc.c  Registration sent
- 11:33:45.694 sip_endpoint.c  Processing incoming message: Response msg 200/REGISTER/cseq=4462 (rdata06E4D44C)
- 11:33:45.694   pjsua_core.c  RX 563 bytes Response msg 200/REGISTER/cseq=4462 (rdata06E4D44C) from UDP 172.17.1.16:5060:
-SIP/2.0 200 OK
-Via: SIP/2.0/UDP 172.17.1.21:5060;branch=z9hG4bKPja83af7c083354f7ca2d1ff281f50780a;received=172.17.1.21;rport=5060
-From: <sip:8001@172.17.1.16>;tag=55c5e04de2a74e23a799691ed971b5b0
-To: <sip:8001@172.17.1.16>;tag=as47d98ef9
-Call-ID: fe0aef6100694ebea6eb8c6a37e6eee4
-CSeq: 4462 REGISTER
-Server: Asterisk PBX 1.6.2.10
-Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO
-Supported: replaces, timer
-Expires: 3600
-Contact: <sip:8001@172.17.1.21:5060>;expires=3600
-Date: Sat, 14 Dec 2013 03:33:42 GMT
-Content-Length: 0
-
-
---end msg--
- 11:33:45.694    tsx06E7DE6C  Incoming Response msg 200/REGISTER/cseq=4462 (rdata06E4D44C) in state Calling
- 11:33:45.694    tsx06E7DE6C  State changed from Calling to Completed, event=RX_MSG
- 11:33:45.694    pjsua_acc.c  sip:8001@172.17.1.16: registration success, status=200 (OK), will re-register in 3600 seconds
- 11:33:45.694    pjsua_acc.c  Keep-alive timer started for acc 0, destination:172.17.1.16:5060, interval:15s
- 11:33:50.694    tsx06E7DE6C  Timeout timer event
- 11:33:50.694    tsx06E7DE6C  State changed from Completed to Terminated, event=TIMER
- 11:33:50.694    tsx06E7DE6C  Timeout timer event
- 11:33:50.694    tsx06E7DE6C  State changed from Terminated to Destroyed, event=TIMER
- 11:33:50.694   tdta06E76AE8  Destroying txdata Request msg REGISTER/cseq=4462 (tdta06E76AE8)
- 11:33:50.694    tsx06E7DE6C  Transaction destroyed!
- 11:33:56.898       endpoint  Request msg REGISTER/cseq=4462 (tdta06E76AE8) created.
- 11:33:56.898    tsx06E7DE6C  Transaction created for Request msg REGISTER/cseq=4463 (tdta06E76AE8)
- 11:33:56.898    tsx06E7DE6C  Sending Request msg REGISTER/cseq=4463 (tdta06E76AE8) in state Null
- 11:33:56.898  sip_resolve.c  Target '172.17.1.16:0' type=Unspecified resolved to '172.17.1.16:5060' type=UDP (UDP transport)
- 11:33:56.898   pjsua_core.c  TX 441 bytes Request msg REGISTER/cseq=4463 (tdta06E76AE8) to UDP 172.17.1.16:5060:
-REGISTER sip:172.17.1.16 SIP/2.0
-Via: SIP/2.0/UDP 172.17.1.21:5060;rport;branch=z9hG4bKPjc7add03d612648d9bb546175b15178f8
-Route: <sip:172.17.1.16;lr>
-Max-Forwards: 70
-From: <sip:8001@172.17.1.16>;tag=f041493923384413aa46353bdce70590
-To: <sip:8001@172.17.1.16>
-Call-ID: fe0aef6100694ebea6eb8c6a37e6eee4
-CSeq: 4463 REGISTER
-User-Agent: Sipek on PJSUA v1.0/win32
-Contact: <sip:8001@172.17.1.21:5060>
-Expires: 0
-Content-Length:  0
-
-
---end msg--
- 11:33:56.898    tsx06E7DE6C  State changed from Null to Calling, event=TX_MSG
- 11:33:56.898    pjsua_acc.c  Unregistration sent
- 11:33:56.898    pjsua_acc.c  Account id 0 deleted
- 11:33:56.915 sip_endpoint.c  Processing incoming message: Response msg 200/REGISTER/cseq=4463 (rdata06E4D44C)
- 11:33:56.915   pjsua_core.c  RX 509 bytes Response msg 200/REGISTER/cseq=4463 (rdata06E4D44C) from UDP 172.17.1.16:5060:
-SIP/2.0 200 OK
-Via: SIP/2.0/UDP 172.17.1.21:5060;branch=z9hG4bKPjc7add03d612648d9bb546175b15178f8;received=172.17.1.21;rport=5060
-From: <sip:8001@172.17.1.16>;tag=f041493923384413aa46353bdce70590
-To: <sip:8001@172.17.1.16>;tag=as47d98ef9
-Call-ID: fe0aef6100694ebea6eb8c6a37e6eee4
-CSeq: 4463 REGISTER
-Server: Asterisk PBX 1.6.2.10
-Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO
-Supported: replaces, timer
-Expires: 0
-Date: Sat, 14 Dec 2013 03:33:53 GMT
-Content-Length: 0
-
-
---end msg--
- 11:33:56.915    tsx06E7DE6C  Incoming Response msg 200/REGISTER/cseq=4463 (rdata06E4D44C) in state Calling
- 11:33:56.915    tsx06E7DE6C  State changed from Calling to Completed, event=RX_MSG
+ 14:22:03.578      pasound.c  PortAudio sound library initialized, status=0
+ 14:22:03.578      pasound.c  PortAudio host api count=3
+ 14:22:03.578      pasound.c  Sound device count=8
+ 14:22:03.578          pjlib  WinNT IOCP I/O Queue created (08EF68EC)
+ 14:22:03.578   conference.c  Creating conference bridge with 254 ports
+ 14:22:03.578   conference.c  Sound device successfully created for port 0
+ 14:22:03.578 sip_endpoint.c  Module "mod-evsub" registered
+ 14:22:03.579 sip_endpoint.c  Module "mod-presence" registered
+ 14:22:03.579        evsub.c  Event pkg "presence" registered by mod-presence
+ 14:22:03.579 sip_endpoint.c  Module "mod-refer" registered
+ 14:22:03.579        evsub.c  Event pkg "refer" registered by mod-refer
+ 14:22:03.579 sip_endpoint.c  Module "mod-pjsua-pres" registered
+ 14:22:03.579 sip_endpoint.c  Module "mod-pjsua-im" registered
+ 14:22:03.579 sip_endpoint.c  Module "mod-pjsua-options" registered
+ 14:22:03.579   pjsua_core.c  1 SIP worker threads created
+ 14:22:03.579   pjsua_core.c  pjsua version 1.0 for win32 initialized
+ 14:22:03.650   pjsua_core.c  SIP UDP socket reachable at 172.17.1.21:5060
+ 14:22:03.652    udp08EF9388  SIP UDP transport started, published address is 172.17.1.21:5060
+ 14:22:03.652    pjsua_acc.c  Account <sip:172.17.1.21:5060> added with id 0
+ 14:22:03.653    tcplis:5060  SIP TCP listener ready for incoming connections at 172.17.1.21:5060
+ 14:22:03.653    pjsua_acc.c  Account <sip:172.17.1.21:5060;transport=TCP> added with id 1
+ 14:22:03.655  pjsua_media.c  RTP socket reachable at 172.17.1.21:4002
+ 14:22:03.655  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4003
+ 14:22:03.663  pjsua_media.c  RTP socket reachable at 172.17.1.21:4004
+ 14:22:03.663  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4005
+ 14:22:03.668  pjsua_media.c  RTP socket reachable at 172.17.1.21:4006
+ 14:22:03.668  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4007
+ 14:22:03.673  pjsua_media.c  RTP socket reachable at 172.17.1.21:4008
+ 14:22:03.673  pjsua_media.c  RTCP socket reachable at 172.17.1.21:4009
+ 14:22:03.673 sip_endpoint.c  Module "My-Module" registered
+ 14:22:04.250   pjsipDll.cpp  Setting codec (speex/16000/1) prio: 0
+ 14:22:04.250   pjsipDll.cpp  Setting codec (speex/32000/1) prio: 0
+ 14:22:04.250   pjsipDll.cpp  Setting codec (GSM/8000/1) prio: 0
+ 14:22:04.250   pjsipDll.cpp  Setting codec (PCMA/8000/1) prio: 128
+ 14:22:04.250   pjsipDll.cpp  Setting codec (G722/16000/1) prio: 0
+ 14:22:04.250   pjsipDll.cpp  Setting codec (GSM/8000/1) prio: 0
+ 14:22:04.250   pjsipDll.cpp  Setting codec (speex/32000/1) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (speex/16000/1) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/44100/1) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/44100/2) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/8000/1) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/8000/2) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/11025/1) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/11025/2) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/16000/1) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/16000/2) prio: 0
+ 14:22:04.251   pjsipDll.cpp  Setting codec (L16/22050/1) prio: 0
+ 14:22:04.252   pjsipDll.cpp  Setting codec (L16/22050/2) prio: 0
+ 14:22:04.252   pjsipDll.cpp  Setting codec (L16/32000/1) prio: 0
+ 14:22:04.252   pjsipDll.cpp  Setting codec (L16/32000/2) prio: 0
+ 14:22:04.252   pjsipDll.cpp  Setting codec (L16/48000/1) prio: 0
+ 14:22:04.252   pjsipDll.cpp  Setting codec (L16/48000/2) prio: 0
+ 14:22:18.793    pjsua_acc.c  Account id 0 deleted
+ 14:22:18.793    pjsua_acc.c  Account id 1 deleted

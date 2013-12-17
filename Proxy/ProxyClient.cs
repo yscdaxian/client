@@ -14,7 +14,7 @@ namespace AgentHelper.Proxy
   
 
     public delegate void OnProxyEvent(String msg);
-    class ProxyClient
+    public class ProxyClient
     {
         private TcpClient tcp;
         private NetworkStream workStream;
